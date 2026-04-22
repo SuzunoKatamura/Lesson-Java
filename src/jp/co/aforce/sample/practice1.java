@@ -56,17 +56,34 @@ public class practice1 {
 			    System.out.println("こんにちは, " + name + " さん！");
 
 			    scanner.close();
-			  }
-		  
-		  
-		  
-		  
-		  
+			  }		  
 		  
 		  static void q6() {
-			    int num = 10;
-			    System.out.println(num);
+			    Scanner scanner = new Scanner(System.in);
+
+			    System.out.print("名前を入力してください：");
+			    String name = scanner.nextLine();
+
+			    System.out.print("年齢を入力してください：");
+			    int age = scanner.nextInt();
+			    scanner.nextLine(); // ← 改行を消す（これ大事）
+
+			    System.out.print("誕生日を入力してください（例: 1995-05-15）：");
+			    String birthday = scanner.nextLine();
+
+			    String result = String.format(
+			      "名前: %s, 年齢: %d歳, 誕生日: %s",
+			      name, age, birthday
+			    );
+
+			    System.out.println(result);
+
+			    scanner.close();
 			  }
+		  
+		  
+		  
+		  
 		  
 		  static void q7() {
 			    int num = 10;

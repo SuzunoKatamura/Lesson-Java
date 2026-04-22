@@ -9,25 +9,13 @@ public class Calculator {
 		int c =a + b;
 		/*　計算した結果を表示する　*/
 		System.out.println("1 + 2 = " + c);
-	}
-	
-//	static void q1() {
-//		int num = 10;
-//	    System.out.println("num");
-//	  }
-//	
-//	static void q2() {
-//		int a = 8;
-//		int b = 5;
-//		int sum = a + b;
-//	    System.out.println("sum");
-//	  }
-//	
-//	static void q3() {
-//		int width = 7;
-//		int height = 4;
-//		int area = width * height / 2;
-//	    System.out.println("area");
-//	  }
-}
+		
+		String str1 = "java";
+		String str2 = "programing";
+		String str3 = str1.substring(1, 3) + str2.substring(2, 5);
+		
+		System.out.println(str3);
 
+	}
+}
+	
