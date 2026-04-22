@@ -12,13 +12,7 @@ public class practice1 {
 	    q5();
 	    q6();
 	    q7();
-	    q8();
-	    q9();
-	    q10();
-	    q11();
-	    q12();
-	    q13();
-	    q14();
+	   	  
 	  }
 	
 		  static void q1() {
@@ -79,50 +73,13 @@ public class practice1 {
 			    System.out.println(result);
 
 			    scanner.close();
-			  }
-		  
-		  
-		  
-		  
+			  }		  
 		  
 		  static void q7() {
-			    int num = 10;
-			    System.out.println(num);
+			    int laptopPrice = 1200;
+			    
+			    System.out.println("商品：Laptopは、価格：" + laptopPrice + "なので、３個買うと" + (laptopPrice * 3) + "円です。");
 			  }
 		  
-		  static void q8() {
-			    int num = 10;
-			    System.out.println(num);
-			  }
-		  
-		  static void q9() {
-			    int num = 10;
-			    System.out.println(num);
-			  }
-		  
-		  static void q10() {
-			    int num = 10;
-			    System.out.println(num);
-			  }
-		  
-		  static void q11() {
-			    int num = 10;
-			    System.out.println(num);
-			  }
-		  
-		  static void q12() {
-			    int num = 10;
-			    System.out.println(num);
-			  }
-		  
-		  static void q13() {
-			    int num = 10;
-			    System.out.println(num);
-			  }
-		  
-		  static void q14() {
-			    int num = 10;
-			    System.out.println(num);
-			  }
 		  
 }
