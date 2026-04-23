@@ -90,6 +90,38 @@ public class practice3 {
         for (String s : set1) {
             System.out.println(s);
         }
+        
+        
+        int[] numbers = {1, 2, 3, 4, 5};
+        ArrayList<Integer> list11 = new ArrayList<>();
+        	for (int num : numbers) {
+        		list.add(num);
+        	}
+        	for (int n : list) {
+        		System.out.println(n);
+        	}
+        
+        
+        ArrayList<String>list111 = new ArrayList<>();
+        	list111.add("apple");
+        	list111.add("orange");
+        	list111.add("banana");
+        	
+        	String[] array = list111.toArray(new String[0]);
+        		for (String s : array) {
+        			System.out.println(s);
+        		}
+        		
+        		
+        		
+        String[] names = {"Lucas", "Bellen", "Teddy" };
+        int[] scores = {100, 90, 80};
+        int sum = 0;
+        	for (int score : scores) {
+        		sum += score;
+        	}
+        double average = (double) sum / scores.length;
+        System.out.println("平均点は" + average);
 
         
     }
