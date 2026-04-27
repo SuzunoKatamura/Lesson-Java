@@ -70,8 +70,7 @@ public class PracticeTest4 {
 	    		System.out.println("不正な月です");
 
     	}
-    	
-    	System.out.println();
+
     }
     
 
