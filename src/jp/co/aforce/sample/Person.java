@@ -9,8 +9,9 @@ public class Person {
 		this.age = age;
 	}
 	
-	public void displayInfo() {
-		System.out.println("名前は" + name + "です。年齢は" + age + "です。");
+	// toStringのオーバーライド
+	@Override
+	public String toString() {
+		return"名前:" + name + "、年齢:" + age;
 	}
-
 }
