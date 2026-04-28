@@ -5,6 +5,9 @@ public class PracticeTest5 {
         q1();
         q2();
         q3();
+        q4();
+        q5();
+        q6();
 	}
 	
     public static void q1() {
@@ -45,5 +48,21 @@ public class PracticeTest5 {
     	 
     	System.out.println();
     }
+    
+    public static void q4() {
+   	 
+    	System.out.println();
+    }
+    
+    public static void q5() {
+   	 
+    	System.out.println();
+    }
+    
+    public static void q6() {
+   	 
+    	System.out.println();
+    }
+
 
 }
