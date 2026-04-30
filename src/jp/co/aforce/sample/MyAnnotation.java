@@ -1,0 +1,10 @@
+package jp.co.aforce.sample;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+public @interface MyAnnotation {
+	String value();
+
+}
